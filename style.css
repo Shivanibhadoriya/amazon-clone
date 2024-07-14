@@ -1,0 +1,119 @@
+.nav-tool div a {
+    text-decoration:none;
+    font-size:20px;
+    font-weight:700;
+    color:black;
+    /* border:3px solid rgb(183, 181, 219); */
+    box-shadow:10px;
+    margin:10px;
+}
+
+.nav-tool{
+    display:flex;
+    padding:0px;
+    margin:0px;
+    margin-top:-33px;
+    margin-left:1000px;
+
+}
+.nav-sign a:hover{
+    text-shadow:1%;
+    /* color:rgb(87, 87, 212); */
+    opacity:0.5;
+}
+#nav-belt{
+    background-color:rgb(211, 211, 245);
+    height:40px;
+    width:100%;
+}
+#navbar-main #navbar #nav-belt .nav-left  .nav-logo a img{
+     height:40px;
+     width:95px;
+}
+.nav-shop-container a{
+    text-decoration:none;
+    color:white;
+    /* position:absolute; */
+    left:4px;
+    margin:5px;
+    padding:15px 15px;
+
+}
+.nav-shop-container {
+    padding:0px;
+    margin:0px;
+    margin-top:10px;
+    margin-left:150px;
+}
+.nav-main{
+    display:flex;
+    background-color:rgb(18, 18, 63);
+    height:40px;
+    width:100%;
+}
+.nav-left i{
+    color:white;
+    font-size:30px;
+    font-weight:700;   
+    position:absolute;
+    left:10px;  
+    top: 47px;
+    line-height:50px;
+}
+/* self */
+.nav-right {
+    display:flex;
+    position:absolute;
+    color:pink;
+}
+.sign-in button{
+  color:skyblue;
+}
+.pagecontent {
+    background:url("images/amazon.png");
+    height:100vh;
+}
+.desktop-hero{
+   height:40vh;
+}
+.explore .explore-home-card{
+  display:flex;
+}
+.explore .explore-home-card .home-card{
+    margin:5px;
+    padding:5px;
+    height: 60vh;
+    width:23rem;
+    background-color: white;
+}
+.home-card-body h5{
+    font-size:25px;
+    font-weight:700px;
+}
+.home-card a{
+    text-decoration:none;
+}
+.home-card-body img{
+    height:45vh;
+}
+.tab-panel .tab-pane{
+    display:flex;
+}
+
+.tab-panel .tab-pane .page-card{
+    margin:5px;
+    padding:5px;
+    height: 60vh;
+    width:23rem;
+    background-color: white;
+}
+
+.tab-pane a:hover{
+    transition: 0.5s ease-in-out;
+}
+
+.page-card-body .btn{
+  position:relative;
+  border-style: solid;
+  padding-bottom:5px;
+}
